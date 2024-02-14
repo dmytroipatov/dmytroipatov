@@ -11,32 +11,31 @@
 
 ```ts
 const skills = {
-  languages: ["JavaScript", "TypeScript", "loading..."],
+  languages: ["JavaScript", "TypeScript"],
   server: {
     core: "NodeJS",
-    frameworks: ["express", "NestJS", "loading..."],
-    networkArchitectures: ["REST", "Graphql", "loading..."],
-    databases: ["PostgreSQL", "MongoDB", "Firebase Realtime Database", "Firebase Cloud Firestore", "Redis", "loading..."],
-    orms: ["TypeORM", "Mongoose", "Knex", "Sequelize", "loading..."],
-    testing: ["Jest", "Storybook", "loading..."],
+    frameworks: ["express", "NestJS"],
+    networkArchitectures: ["REST", "Graphql"],
+    databases: ["PostgreSQL", "MongoDB", "Firebase Realtime Database", "Firebase Cloud Firestore", "Redis"],
+    orms: ["TypeORM", "Mongoose", "Knex", "Sequelize"],
+    testing: ["Jest", "Storybook"],
   },
   client: {
     core: "React",
-    frameworks: ["Next.js", "loading..."],
-    stateManagers: ["Redux", "Apollo Client", "loading..."],
-    testing: ["React Testing Library", "loading..."],
+    frameworks: ["Next.js"],
+    stateManagers: ["Redux", "Apollo Client"],
+    testing: ["React Testing Library"],
     ui: ["HTML", "CSS", "SASS/SCSS", "Ant Design", "Material UI",
-        "Native Base", "Gluestack UI", "Bootstrap 4/5", "Tailwind CSS", "loading..."],
+        "Native Base", "Gluestack UI", "Bootstrap 4/5", "Tailwind CSS"],
   },
   mobile: {
     core: "React Native",
-    platforms: ["Expo", "loading..."],
-    ui: ["Native Base", "Gluestack UI", "loading..."],
+    platforms: ["Expo"],
+    ui: ["Native Base", "Gluestack UI"],
   },
-  buildTools: ["Webpack", "Turborepo", "tsup", "loading..."],
-  containerizationAndCI: ["Docker", "Github Actions", "loading..."],
-  cloud: ["Google Cloud", "AWS", "loading..."],
-  payments: ["Stripe", "Mangopay", "loading..."],
-  ...loading,
+  buildTools: ["Webpack", "Turborepo", "tsup"],
+  containerizationAndCI: ["Docker", "Github Actions"],
+  cloud: ["Google Cloud", "AWS"],
+  payments: ["Stripe", "Mangopay"],
 }
 ```
