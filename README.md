@@ -37,5 +37,6 @@ const skills = {
   containerizationAndCI: ["Docker", "Github Actions"],
   cloud: ["Google Cloud", "AWS"],
   payments: ["Stripe", "Mangopay"],
+  ...loading
 }
 ```
